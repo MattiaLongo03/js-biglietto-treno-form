@@ -18,6 +18,23 @@
     <title>Prezzo-treno</title>
 </head>
 <body>
-    
+    <form action="#">
+        <label for="nome">Nome e Cognome</label>
+        <input type="text" placeholder="Inserisci Nome e Cognome" id="nome">
+        <label for="km">Km da percorrere</label>
+        <input type="number" placeholder="Inserisci quanti km">
+        <label for="age">Fascia d'età</label>
+        <select name="age" id="age">
+            <option value="age">Maggiorenne</option>
+            <option value="age">Minorenne</option>
+            <option value="age">Over 65</option>
+        </select>
+        <button type="submit" class="btn btn-light">Genera</button>
+        <button type="reset" class="btn btn-light">Annulla</button>
+    </form>
+        
+    <div class="output">
+        <p id="prezzo"></p>
+    </div>
 </body>
 </html>
